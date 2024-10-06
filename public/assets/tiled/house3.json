@@ -1,0 +1,140 @@
+{
+	"compressionlevel": -1,
+	"height": 10,
+	"infinite": false,
+	"layers": [
+		{
+			"compression": "",
+			"data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkAAAA5AAAAOQAAADkAAAA5AAAAOQAAADkAAAAAAAAAAAAAAAAAAAA5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AAAAOQAAADkAAAAAAAAAOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AAAAAAAAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOQAAAAAAAAA5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkAAAAAAAAAOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AAAAAAAAADkAAAA5AAAAOQAAADkAAAA5AAAAAAAAAAAAAAAAAAAAOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOQAAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADkAAAA5AAAAAAAAADkAAAA5AAAAAAAAAA==",
+			"encoding": "base64",
+			"height": 10,
+			"id": 3,
+			"name": "Collision",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 10,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"compression": "",
+			"data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAgAAAAIAAAACAAAAAgAAAAMAAAAAAAAAAAAAAAAAAAAJAAAACgAAAAoAAAAKAAAACgAAAAoAAAAFAAAAAgAAAAMAAAAAAAAACQAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAALAAAAAAAAAAkAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACwAAAAAAAAAJAAAACgAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAsAAAAAAAAACQAAAAoAAAAKAAAACgAAAAoAAAAKAAAACgAAAAoAAAALAAAAAAAAABEAAAASAAAAEgAAABIAAAAMAAAACgAAAAoAAAAKAAAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAoAAAAKAAAACgAAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEAAAASAAAAHAAAABIAAAATAAAAAAAAAA==",
+			"encoding": "base64",
+			"height": 10,
+			"id": 1,
+			"name": "Ground",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 10,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"compression": "",
+			"data": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+			"encoding": "base64",
+			"height": 10,
+			"id": 2,
+			"name": "Top",
+			"opacity": 1,
+			"type": "tilelayer",
+			"visible": true,
+			"width": 10,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"draworder": "topdown",
+			"id": 4,
+			"name": "Objects",
+			"objects": [
+				{
+					"height": 0,
+					"id": 1,
+					"name": "Player",
+					"point": true,
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 0,
+					"x": 96,
+					"y": 128
+				},
+				{
+					"height": 0,
+					"id": 2,
+					"name": "NPC",
+					"point": true,
+					"properties": [
+						{
+							"name": "name",
+							"type": "string",
+							"value": "jones"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 0,
+					"x": 48,
+					"y": 32
+				},
+				{
+					"height": 8,
+					"id": 3,
+					"name": "Entrance",
+					"properties": [
+						{
+							"name": "level",
+							"type": "string",
+							"value": "world1"
+						},
+						{
+							"name": "pos",
+							"type": "string",
+							"value": "97|385"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 8,
+					"x": 100,
+					"y": 148
+				}
+			],
+			"opacity": 1,
+			"type": "objectgroup",
+			"visible": true,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"nextlayerid": 5,
+	"nextobjectid": 4,
+	"orientation": "orthogonal",
+	"renderorder": "right-down",
+	"tiledversion": "1.10.2",
+	"tileheight": 16,
+	"tilesets": [
+		{
+			"columns": 8,
+			"firstgid": 1,
+			"image": "../img/tileset.png",
+			"imageheight": 128,
+			"imagewidth": 128,
+			"margin": 0,
+			"name": "tiles",
+			"spacing": 0,
+			"tilecount": 64,
+			"tileheight": 16,
+			"tilewidth": 16
+		}
+	],
+	"tilewidth": 16,
+	"type": "map",
+	"version": "1.10",
+	"width": 10
+}
